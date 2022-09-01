@@ -1,5 +1,5 @@
 # pass-elide-sample-data
-Includes a small set of sample data plus a loader
+Includes a small set of sample data plus a loader. This is meant only as a proof of concept for exercising out Elide demo.
 
 For now, local testing of the data and loader was run against a standalone Elide using the in-memory DB (not the PostgreSQL backend). See https://github.com/markpatton/pass-elide-test for the demo
 
