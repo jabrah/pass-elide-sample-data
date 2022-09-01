@@ -1,0 +1,93 @@
+[
+  {
+    "id": "0",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Print:0095-8301"],
+      "journalName": "Diabetes forecast",
+      "nlmta": "Diabetes Forecast"
+    }
+  },
+  {
+    "id": "1",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Online:1945-0508", "Print:1945-0494"],
+      "journalName": "Frontiers in bioscience (Elite edition)",
+      "nlmta": "Front Biosci (Elite Ed)"
+    }
+  },
+  {
+    "id": "2",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Online:2090-6412", "Print:2090-6404"],
+      "journalName": "Case Reports in Cardiology",
+      "pmcParticipation": "A",
+      "nlmta": "Case Rep Cardiol"
+    }
+  },
+  {
+    "id": "3",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Print:0046-2233"],
+      "journalName": "Environmental biology and medicine",
+      "nlmta": "Environ Biol Med"
+    }
+  },
+  {
+    "id": "4",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Print:0367-3480"],
+      "journalName": "Frankfurter Zeitschrift fur Pathologie",
+      "nlmta": "Frankf Z Pathol"
+    }
+  },
+  {
+    "id": "5",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Print:0001-723X", "Online:1336-2305"],
+      "journalName": "Acta virologica",
+      "nlmta": "Acta Virol"
+    }
+  },
+  {
+    "id": "6",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Print:1784-9934"],
+      "journalName": "Journal of cyber therapy and rehabilitation",
+      "nlmta": "J Cyber Ther Rehabil"
+    }
+  },
+  {
+    "id": "7",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Print:0559-1996"],
+      "journalName": "Report of proceedings. Scottish Society of the History of Medicine",
+      "nlmta": "Rep Proc Scott Soc Hist Med"
+    }
+  },
+  {
+    "id": "8",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Print:0952-3367"],
+      "journalName": "The International journal of the history of sport",
+      "nlmta": "Int J Hist Sport"
+    }
+  },
+  {
+    "id": "9",
+    "type": "journal",
+    "attributes": {
+      "issns": ["Print:0967-0874", "Online:1366-5863"],
+      "journalName": "International journal of pest management",
+      "nlmta": "Int J Pest Manag"
+    }
+  }
+]

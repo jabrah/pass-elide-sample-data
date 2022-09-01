@@ -1,0 +1,46 @@
+[
+  {
+    "id": "0",
+    "type": "funder",
+    "attributes": {
+      "localKey": "johnshopkins.edu:funder:300865",
+      "name": "NATIONAL INSTITUTE OF HEALTH"
+    },
+    "relationships": {
+      "policy": {
+        "data": { "id": "5", "type": "policy" }
+      }
+    }
+  },
+  {
+    "id": "1",
+    "type": "funder",
+    "attributes": {
+      "localKey": "johnshopkins.edu:funder:300852",
+      "name": "NATIONAL EYE INSTITUTE"
+    },
+    "relationships": {
+      "policy": {
+        "data": { "id": "5", "type": "policy" }
+      }
+    }
+  },
+  {
+    "id": "2",
+    "type": "funder",
+    "attributes": {
+      "localKey": "johnshopkins.edu:funder:311649",
+      "name": "INTERNATIONAL BRAIN RESEARCH"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "3",
+    "type": "funder",
+    "attributes": {
+      "localKey": "johnshopkins.edu:funder:301694",
+      "name": "WILLIAM AND ELLA OWENS MEDICAL RESE"
+    },
+    "relationships": {}
+  }
+]
