@@ -13,7 +13,7 @@ The data has its own set of IDs to make authoring a bit easier. The loading scri
 
 ## Running the loader
 
-* Clone the Elide demo repository (https://github.com/jabrah/pass-elide-test/tree/update-some-columns)
+* Clone the Elide demo repository (https://github.com/jabrah/pass-elide-test.git) and checkout the `update-some-columns` branch
 * In the Elide demo directory, build the project and run the executable Jar: `mvn clean install && java -jar ./target/pass-elide-test.jar`
 * In this project's directory, run `node ./src/index.js` to load the sample data.
 
