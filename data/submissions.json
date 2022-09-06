@@ -60,5 +60,75 @@
         "data": { "id": "0", "type": "publication" }
       }
     }
+  },
+  {
+    "id": "2",
+    "type": "submission",
+    "attributes": {
+      "submitted": false,
+      "submissionStatus": "APPROVAL_REQUESTED",
+      "aggregatedDepositStatus": "NOT_STARTED",
+      "source": "OTHER"
+    },
+    "relationships": {
+      "grants": {
+        "data": [
+          { "id": "0", "type": "grant" }
+        ]
+      },
+      "submitter": {
+        "data": { "id": "0", "type": "user" }
+      },
+      "effectivePolicies": {
+          "data": [
+          { "id": "5", "type": "policy" },
+          { "id": "0", "type": "policy" }
+        ]
+      },
+      "repositories": {
+          "data": [
+          { "id": "1", "type": "repository" },
+          { "id": "3", "type": "repository" }
+        ]
+      },
+      "publication": {
+        "data": { "id": "2", "type": "publication" }
+      }
+    }
+  },
+  {
+    "id": "3",
+    "type": "submission",
+    "attributes": {
+      "submitted": false,
+      "submissionStatus": "CANCELLED",
+      "aggregatedDepositStatus": "NOT_STARTED",
+      "source": "OTHER"
+    },
+    "relationships": {
+      "grants": {
+        "data": [
+          { "id": "0", "type": "grant" }
+        ]
+      },
+      "submitter": {
+        "data": { "id": "0", "type": "user" }
+      },
+      "effectivePolicies": {
+          "data": [
+          { "id": "5", "type": "policy" },
+          { "id": "0", "type": "policy" }
+        ]
+      },
+      "repositories": {
+          "data": [
+          { "id": "1", "type": "repository" },
+          { "id": "3", "type": "repository" }
+        ]
+      },
+      "publication": {
+        "data": { "id": "2", "type": "publication" }
+      }
+    }
   }
 ]
