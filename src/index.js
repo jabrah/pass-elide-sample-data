@@ -3,7 +3,8 @@ require('dotenv').config();
 const PassRemapper = require('./remapper');
 
 const fs = require('fs').promises;
-const request = require('http').request;
+
+const axios = require('axios');
 
 const files = [
   './data/users.json',
@@ -49,12 +50,11 @@ function handleEntity(obj) {
 
   delete copy.id;
   
-  const jsonapiObj = JSON.stringify({ data: copy });
-  const path = process.env.PASS_API_NAMESPACE || 'api/v1';
+  const path = process.env.LOADER_API_NAMESPACE;
 
   const req_opt = {
-    host: process.env.LOADER_API_HOST || 'localhost',
-    port: process.env.ELIDE_API_PORT || '8080',
+    host: process.env.LOADER_API_HOST,
+    port: process.env.LOADER_API_PORT,
     path: `/${path}/${type}`,
     method: 'POST',
     headers: {  
@@ -63,40 +63,31 @@ function handleEntity(obj) {
     }
   };
 
-  const url = `${req_opt.method} '${req_opt.host}:${req_opt.port}${req_opt.path}'`;
-  console.log(`Request: (${url})`);
+  // const url = `${req_opt.method} '${req_opt.host}:${req_opt.port}${req_opt.path}'`;
+  const url = `http://${req_opt.host}:${req_opt.port}${req_opt.path}`;
+  console.log(`Request: [POST] (${url})`);
 
-  const promise = new Promise((resolve, reject) => {
-    const post = request(req_opt, (res) => {
-      res.setEncoding('utf8');
-      res.on('data', (chunk) => {
-        const data = JSON.parse(chunk);
-
-        if (data.data) {
-          passMapper.add(obj, data);
-  
-          console.log(`   > Response (${url})`);
-          resolve();
-        } else {
-          const error = data.error || data.errors;
-          console.error(`  !! Error for request (${url}): ${JSON.stringify(error)}`);
-          // console.error(`  ## Originalobj: ${JSON.stringify(obj, null, 2)}`)
-          console.error(`  ## Backend obj: ${JSON.stringify(copy, null, 2)}`);
-          reject();
-        }
-      });
-    });
-
-    post.on('error', (error) => {
-      console.error(`  !! Error for request (${url}): ${error.message}`);
-      reject();
-    });
-
-    post.write(jsonapiObj);
-    post.end();
+  return axios.post(
+    url,
+    { data: copy },
+    {
+      headers: {
+        accept: 'application/vnd.api+json',
+        'Content-Type': 'application/vnd.api+json'
+      },
+    }
+  ).then(async (data) => {
+    if (data.data) {
+      passMapper.add(obj, data.data);
+      console.log(`   > Response (${url})`);
+    } else {
+      const error = data.error || data.errors;
+      console.error(`  !! Error for request (${url}): ${JSON.stringify(error)}`);
+    }
+    
+  }).catch((error) => {
+    console.error(`  !! Error for request [POST] (${url}): ${JSON.stringify(error)}`);
   });
-  
-  return promise;
 }
 
 function handleArray(arr) {
