@@ -50,18 +50,17 @@ function handleEntity(obj) {
   delete copy.id;
   
   const jsonapiObj = JSON.stringify({ data: copy });
-  const path = process.env.API_PATH || 'api/v1';
+  const path = process.env.PASS_API_NAMESPACE || 'api/v1';
 
   const req_opt = {
-    host: process.env.API_HOST || 'localhost',
-    port: process.env.API_PORT || '8080',
+    host: process.env.LOADER_API_HOST || 'localhost',
+    port: process.env.ELIDE_API_PORT || '8080',
     path: `/${path}/${type}`,
     method: 'POST',
     headers: {  
       accept: 'application/vnd.api+json',
       'Content-Type': 'application/vnd.api+json'
-    },
-    timeout: process.env.API_TIMEOUT || 10000
+    }
   };
 
   const url = `${req_opt.method} '${req_opt.host}:${req_opt.port}${req_opt.path}'`;
@@ -93,8 +92,6 @@ function handleEntity(obj) {
       reject();
     });
 
-    post.on('timeout', () => post.destroy());
-
     post.write(jsonapiObj);
     post.end();
   });
@@ -125,4 +122,9 @@ async function uploadData() {
   }
 }
 
-uploadData();
+function main() {
+  console.log(JSON.stringify(process.env));
+  uploadData();
+}
+
+main();
