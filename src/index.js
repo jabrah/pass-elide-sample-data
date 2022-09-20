@@ -64,7 +64,7 @@ function handleEntity(obj) {
   };
 
   // const url = `${req_opt.method} '${req_opt.host}:${req_opt.port}${req_opt.path}'`;
-  const url = `http://${req_opt.host}:${req_opt.port}${req_opt.path}`;
+  const url = `${req_opt.host}:${req_opt.port}${req_opt.path}`;
   console.log(`Request: [POST] (${url})`);
 
   return axios.post(
