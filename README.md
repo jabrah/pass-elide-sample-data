@@ -11,6 +11,12 @@ The data has its own set of IDs to make authoring a bit easier. The loading scri
 * Maven 3.8.5+
 * NodeJS 16.16.0 (lts/gallium)
 
+## Building
+
+`npm run build:docker`
+
+This will build a Docker image for this service with a tag version to match the package version found in `package.json` (works for Bash)
+
 ## Running the loader
 
 * Clone the Elide demo repository (https://github.com/jabrah/pass-elide-test.git) and checkout the `update-some-columns` branch
