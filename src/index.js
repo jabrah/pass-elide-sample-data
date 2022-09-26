@@ -100,7 +100,8 @@ function handleArray(arr) {
   return Promise
     .all(reqs)
     .catch((error) => {
-      console.error(`  #### ${JSON.stringify(error)}`)
+      console.error(`  #### ${JSON.stringify(error)}`);
+      process.exit(1);
     });
 }
 

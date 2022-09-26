@@ -4,9 +4,9 @@
     "type": "submission",
     "attributes": {
       "submitted": false,
-      "submissionStatus": "MANUSCRIPT_REQUIRED",
-      "aggregatedDepositStatus": "NOT_STARTED",
-      "source": "OTHER"
+      "submissionStatus": "manuscript-required",
+      "aggregatedDepositStatus": "not-started",
+      "source": "other"
     },
     "relationships": {
       "grants": {
@@ -39,8 +39,8 @@
     "type": "submission",
     "attributes": {
       "submitted": true,
-      "submissionStatus": "COMPLETE",
-      "source": "OTHER"
+      "submissionStatus": "complete",
+      "source": "other"
     },
     "relationships": {
       "grants": {
@@ -66,9 +66,9 @@
     "type": "submission",
     "attributes": {
       "submitted": false,
-      "submissionStatus": "APPROVAL_REQUESTED",
-      "aggregatedDepositStatus": "NOT_STARTED",
-      "source": "OTHER"
+      "submissionStatus": "approval-requested",
+      "aggregatedDepositStatus": "not-started",
+      "source": "other"
     },
     "relationships": {
       "grants": {
@@ -101,9 +101,9 @@
     "type": "submission",
     "attributes": {
       "submitted": false,
-      "submissionStatus": "CANCELLED",
-      "aggregatedDepositStatus": "NOT_STARTED",
-      "source": "OTHER"
+      "submissionStatus": "cancelled",
+      "aggregatedDepositStatus": "not-started",
+      "source": "other"
     },
     "relationships": {
       "grants": {

@@ -13,7 +13,7 @@
         "johnshopkins.edu:employeeid:12345",
         "johnshopkins.edu:jhed:12345"
       ],
-      "roles": ["SUBMITTER"],
+      "roles": ["submitter"],
       "username": "nih-user@johnshopkins.edu"
     }
   },
@@ -24,7 +24,7 @@
       "firstName": "Staff",
       "lastName": "Hasnogrants",
       "displayName": "Staff Hasnogrants",
-      "roles": ["SUBMITTER"],
+      "roles": ["submitter"],
       "locatorIds": [
         "johnshopkins.edu:jhed:staff2",
         "johnshopkins.edu:employeeid:1020304",
@@ -41,7 +41,7 @@
       "firstName": "Staff",
       "lastName": "Hasgrants",
       "displayName": "Staff Hasgrants",
-      "roles": ["SUBMITTER"],
+      "roles": ["submitter"],
       "locatorIds": [
         "johnshopkins.edu:jhed:swhg",
         "johnshopkins.edu:employeeid:906502",
@@ -58,7 +58,7 @@
       "firstName": "F",
       "lastName": "Hasgrants",
       "displayName": "Faculty Hasgrants",
-      "roles": ["SUBMITTER"],
+      "roles": ["submitter"],
       "locatorIds": ["johnshopkins.edu:jhed:fhg1", "johnshopkins.edu:hopkinsid:MF150", "johnshopkins.edu:employeeid:150"],
       "middleName": "A",
       "email": "facultyWithGrants@jhu.edu"

@@ -6,7 +6,7 @@
       "endDate": "2022-06-30T00:00:00.000Z",
       "awardNumber": "R01EY012124",
       "awardDate": "2017-05-26T00:00:00.000Z",
-      "awardStatus": "ACTIVE",
+      "awardStatus": "active",
       "projectName": "Regulation of Synaptic Plasticity in Visual Cortex",
       "startDate": "2017-07-01T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
@@ -30,7 +30,7 @@
       "endDate": "2018-08-31T00:00:00.000Z",
       "awardNumber": "Z0650001",
       "awardDate": "2015-09-23T00:00:00.000Z",
-      "awardStatus": "ACTIVE",
+      "awardStatus": "active",
       "projectName": "Reversible activation of critical period plasticity in visual cortex",
       "startDate": "2015-09-01T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
@@ -54,7 +54,7 @@
       "endDate": "2018-03-31T00:00:00.000Z",
       "awardNumber": "90072705",
       "awardDate": "2017-01-20T00:00:00.000Z",
-      "awardStatus": "TERMINATED",
+      "awardStatus": "terminated",
       "projectName": "IBRO-USCRC North American Research Fellowship",
       "startDate": "2017-04-01T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
@@ -78,7 +78,7 @@
       "endDate": "2017-06-30T00:00:00.000Z",
       "awardNumber": "R01EY012124",
       "awardDate": "2013-07-22T00:00:00.000Z",
-      "awardStatus": "TERMINATED",
+      "awardStatus": "terminated",
       "projectName": "Regulation of Synaptic Plasticity in Visual Cortex",
       "startDate": "2013-08-01T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
@@ -102,7 +102,7 @@
       "endDate": "2017-06-30T00:00:00.000Z",
       "awardNumber": "R01EY012124",
       "awardDate": "2015-05-01T00:00:00.000Z",
-      "awardStatus": "TERMINATED",
+      "awardStatus": "terminated",
       "projectName": "Admin. Supplement - Regulation of Synaptic Plasticity in Visual Cortex",
       "startDate": "2013-08-01T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
@@ -126,7 +126,7 @@
       "endDate": "2017-01-31T00:00:00.000Z",
       "awardNumber": "90067366",
       "awardDate": "2015-12-21T00:00:00.000Z",
-      "awardStatus": "TERMINATED",
+      "awardStatus": "terminated",
       "projectName": "Metaplasticity in a Transgenic Mouse Model of Alzheimer Disease",
       "startDate": "2016-02-01T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
@@ -150,7 +150,7 @@
       "endDate": "2015-07-31T00:00:00.000Z",
       "awardNumber": "P01AG009973",
       "awardDate": "2008-03-31T00:00:00.000Z",
-      "awardStatus": "TERMINATED",
+      "awardStatus": "terminated",
       "projectName": "Cognition and Hippocampal/ Cortical Systems in Aging",
       "startDate": "2008-04-01T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
@@ -179,7 +179,7 @@
       "endDate": "2015-07-31T00:00:00.000Z",
       "awardNumber": "R01AG034606",
       "awardDate": "2009-08-14T00:00:00.000Z",
-      "awardStatus": "TERMINATED",
+      "awardStatus": "terminated",
       "projectName": "Synaptic Function & Plasticity in CA3 Circuits in the Aging Hippocampus",
       "startDate": "2009-08-15T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
@@ -203,7 +203,7 @@
       "endDate": "2013-07-31T00:00:00.000Z",
       "awardNumber": "R01EY012124",
       "awardDate": "2008-11-24T00:00:00.000Z",
-      "awardStatus": "TERMINATED",
+      "awardStatus": "terminated",
       "projectName": "Regulation of Synaptic Plasticity in Visual Cortex",
       "startDate": "2008-12-01T00:00:00.000Z",
       "localKey": "johnshopkins.edu:grant:12345"
