@@ -42,5 +42,13 @@
       "name": "WILLIAM AND ELLA OWENS MEDICAL RESE"
     },
     "relationships": {}
+  },
+  {
+    "id": "4",
+    "type": "funder",
+    "attributes": {
+      "localKey": "johnshopkins.edu:funder:300883",
+      "name": "NATL SCIENCE FOUNDATION"
+    }
   }
 ]
