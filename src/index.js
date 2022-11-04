@@ -114,8 +114,58 @@ async function uploadData() {
   }
 }
 
-function main() {
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function pingBackend() {
+  const url = `${process.env.LOADER_API_HOST}:${process.env.LOADER_API_PORT}/${process.env.LOADER_API_NAMESPACE}/user`;
+  
+  console.log(`  >> Trying pass-core (${url})`);
+
+  const resp = await axios.get(url)
+    .catch((e) => ({ status: 500 }));
+
+  console.log(`    -- ${resp.status}`);
+
+  return resp;
+}
+
+/**
+ * Poll the backend until we get a 200 reponse AND
+ * the response returns data.
+ * 
+ * @returns {boolean} TRUE if returned data is empty
+ *                    FALSE if data already exists
+ * @throws {Error} if waiting times out
+ */
+async function waitAndCheckForData() {
+  let i = 0;
+  let repeat = true;
+
+  console.log(`## Loader :: Waiting for pass-core to be ready ##`);
+  while (i < (process.env.LOADER_RETRIES || 100) && repeat) {
+    i++;
+
+    const response = await pingBackend();
+    repeat = response.status < 200 || response.status > 299;
+
+    if (!repeat) {
+      return Array.isArray(response.data.data) && response.data.data.length === 0;
+    }
+
+    await sleep(5000);
+  }
+
+  process.exit('Backend failed to respond in time.');
+}
+
+async function main() {
   console.log(JSON.stringify(process.env));
+
+  await waitAndCheckForData();
   uploadData();
 }
 
