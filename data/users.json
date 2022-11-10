@@ -64,5 +64,149 @@
       "middleName": "A",
       "email": "facultyWithGrants@jhu.edu"
     }
+  },
+  {
+    "id": "4",
+    "type": "user",
+    "attributes": {
+      "firstName": "Andrew",
+      "lastName": "Forward",
+      "username": "aforward@johnshopkins.edu",
+      "email": "aforward@johnshopkins.edu",
+      "displayName": "Andrew Forward",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "5",
+    "type": "user",
+    "attributes": {
+      "firstName": "Allen",
+      "lastName": "Moore",
+      "username": "amoore@johnshopkins.edu",
+      "email": "amoore@johnshopkins.edu",
+      "displayName": "Allen Moore",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "6",
+    "type": "user",
+    "attributes": {
+      "firstName": "Bill",
+      "lastName": "Branan",
+      "username": "bbranan@johnshopkins.edu",
+      "email": "bbranan@johnshopkins.edu",
+      "displayName": "Bill Branan",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "7",
+    "type": "user",
+    "attributes": {
+      "firstName": "Grant",
+      "lastName": "McSheffrey",
+      "username": "grant-mcs@johnshopkins.edu",
+      "email": "grant-mcs@johnshopkins.edu",
+      "displayName": "Grant McSheffrey",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "8",
+    "type": "user",
+    "attributes": {
+      "firstName": "John",
+      "lastName": "Abrahams",
+      "username": "jabrah@johnshopkins.edu",
+      "email": "jabrah@johnshopkins.edu",
+      "displayName": "John Abrahams",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "9",
+    "type": "user",
+    "attributes": {
+      "firstName": "Jared",
+      "lastName": "Galanis",
+      "username": "jaredgalanis@johnshopkins.edu",
+      "email": "jaredgalanis@johnshopkins.edu",
+      "displayName": "Jared Galanis",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "10",
+    "type": "user",
+    "attributes": {
+      "firstName": "Jeff",
+      "lastName": "Gara",
+      "username": "jgara@johnshopkins.edu",
+      "email": "jgara@johnshopkins.edu",
+      "displayName": "Jeff Gara",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "11",
+    "type": "user",
+    "attributes": {
+      "firstName": "Jim",
+      "lastName": "Martino",
+      "username": "jrmartino@johnshopkins.edu",
+      "email": "jrmartino@johnshopkins.edu",
+      "displayName": "Jim Martino",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "12",
+    "type": "user",
+    "attributes": {
+      "firstName": "John",
+      "lastName": "Kellerman",
+      "username": "kineticsquid@johnshopkins.edu",
+      "email": "kineticsquid@johnshopkins.edu",
+      "displayName": "John Kellerman",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "13",
+    "type": "user",
+    "attributes": {
+      "firstName": "Mark",
+      "lastName": "Patton",
+      "username": "markpatton@johnshopkins.edu",
+      "email": "markpatton@johnshopkins.edu",
+      "displayName": "Mark Patton",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "14",
+    "type": "user",
+    "attributes": {
+      "firstName": "Tim",
+      "lastName": "Martin",
+      "username": "springstim@johnshopkins.edu",
+      "email": "springstim@johnshopkins.edu",
+      "displayName": "Tim Martin",
+      "roles": [ "submitter" ]
+    }
+  },
+  {
+    "id": "15",
+    "type": "user",
+    "attributes": {
+      "firstName": "Tim",
+      "lastName": "Sanders",
+      "username": "tsande16@johnshopkins.edu",
+      "email": "tsande16@johnshopkins.edu",
+      "displayName": "Tim Sanders",
+      "roles": [ "submitter" ]
+    }
   }
 ]
